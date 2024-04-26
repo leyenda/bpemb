@@ -118,7 +118,7 @@ class BPEmb():
         Path to a custom embedding file. Supported formats are Word2Vec
         plain text and GenSim binary.
     """
-    base_url = "https://nlp.h-its.org/bpemb/"
+    base_url = "https://bpemb.h-its.org/multi/"
     emb_tpl = "{lang}/{lang}.wiki.bpe.vs{vs}.d{dim}.w2v.bin"
     model_tpl = "{lang}/{lang}.wiki.bpe.vs{vs}.model"
     archive_suffix = ".tar.gz"
